@@ -20,13 +20,13 @@ public class Main {
             System.exit(0);
         } else {
 
-            if (str.trim().charAt(2) == '+') {
+            if (str.trim().charAt(2) == Plus.PLUS) {
                 System.out.println(Plus.plus(a, b));
-            } else if (str.trim().charAt(2) == '/') {
+            } else if (str.trim().charAt(2) == Divide.DIVIDE) {
                 System.out.println(Divide.divide(a, b));
-            } else if (str.trim().charAt(2) == '*') {
+            } else if (str.trim().charAt(2) == Multiplication.MULT) {
                 System.out.println(Multiplication.multiple(a, b));
-            } else if (str.trim().charAt(2) == '-') {
+            } else if (str.trim().charAt(2) == Subtraction.SUBTRACT) {
                 System.out.println(Subtraction.subtract(a, b));
             }
 
